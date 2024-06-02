@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Server SDK"
 	ProjectGUID="{E8C0FE86-D8E1-4B44-8F76-F2A9A21E9C4F}"
+	RootNamespace="Server SDK"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -92,7 +93,7 @@
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="..\..\lib\common;..\..\lib\public"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"
