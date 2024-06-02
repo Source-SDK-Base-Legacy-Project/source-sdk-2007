@@ -2,7 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Captioncompiler"
+	Name="captioncompiler-2005"
+	ProjectGUID="{9DEDADEA-1869-4243-AE7E-B5BE536CA722}"
+	RootNamespace="captioncompiler-2005"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
