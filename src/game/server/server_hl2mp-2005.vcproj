@@ -29,9 +29,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\hl2mp\bin\"
-				CommandLine="if exist &quot;..\..\game\hl2mp\bin\server.dll&quot; attrib -r &quot;..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\hl2mp\bin\server.dll"
+				Description="Copying to ..\..\..\game\hl2mp\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2mp\bin\server.dll&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;..\..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2mp\bin\server.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -147,9 +147,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\hl2mp\bin\"
-				CommandLine="if exist &quot;..\..\game\hl2mp\bin\server.dll&quot; attrib -r &quot;..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;..\..\game\hl2mp\bin\server.pdb&quot; attrib -r &quot;..\..\game\hl2mp\bin\server.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.pdb copy &quot;$(TargetDir)&quot;server.pdb &quot;..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\hl2mp\bin\server.dll;..\..\game\hl2mp\bin\server.pdb"
+				Description="Copying to ..\..\..\game\hl2mp\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2mp\bin\server.dll&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;..\..\..\game\hl2mp\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;..\..\..\game\hl2mp\bin\server.pdb&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\server.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.pdb copy &quot;$(TargetDir)&quot;server.pdb &quot;..\..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2mp\bin\server.dll;..\..\..\game\hl2mp\bin\server.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

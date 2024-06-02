@@ -29,9 +29,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\template\bin\"
-				CommandLine="if exist &quot;..\..\game\template\bin\client.dll&quot; attrib -r &quot;..\..\game\template\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\game\template\bin&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\template\bin\client.dll"
+				Description="Copying to ..\..\..\game\template\bin\"
+				CommandLine="if exist &quot;..\..\..\game\template\bin\client.dll&quot; attrib -r &quot;..\..\..\game\template\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\template\bin&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\template\bin\client.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -149,9 +149,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\template\bin\"
-				CommandLine="if exist &quot;..\..\game\template\bin\client.dll&quot; attrib -r &quot;..\..\game\template\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\game\template\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\game\template\bin\client.pdb&quot; attrib -r &quot;..\..\game\template\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\game\template\bin\client.pdb&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\template\bin\client.dll;..\..\game\template\bin\client.pdb"
+				Description="Copying to ..\..\..\game\template\bin\"
+				CommandLine="if exist &quot;..\..\..\game\template\bin\client.dll&quot; attrib -r &quot;..\..\..\game\template\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\template\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\..\game\template\bin\client.pdb&quot; attrib -r &quot;..\..\..\game\template\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\..\game\template\bin\client.pdb&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\template\bin\client.dll;..\..\..\game\template\bin\client.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

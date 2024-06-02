@@ -29,9 +29,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\hl2mp\bin\"
-				CommandLine="if exist &quot;..\..\game\hl2mp\bin\client.dll&quot; attrib -r &quot;..\..\game\hl2mp\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\hl2mp\bin\client.dll"
+				Description="Copying to ..\..\..\game\hl2mp\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2mp\bin\client.dll&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2mp\bin\client.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -149,9 +149,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\game\hl2mp\bin\"
-				CommandLine="if exist &quot;..\..\game\hl2mp\bin\client.dll&quot; attrib -r &quot;..\..\game\hl2mp\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\game\hl2mp\bin\client.pdb&quot; attrib -r &quot;..\..\game\hl2mp\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\game\hl2mp\bin\client.pdb&quot;&#x0D;&#x0A;"
-				Outputs="..\..\game\hl2mp\bin\client.dll;..\..\game\hl2mp\bin\client.pdb"
+				Description="Copying to ..\..\..\game\hl2mp\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2mp\bin\client.dll&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\hl2mp\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\..\game\hl2mp\bin\client.pdb&quot; attrib -r &quot;..\..\..\game\hl2mp\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\..\game\hl2mp\bin\client.pdb&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2mp\bin\client.dll;..\..\..\game\hl2mp\bin\client.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

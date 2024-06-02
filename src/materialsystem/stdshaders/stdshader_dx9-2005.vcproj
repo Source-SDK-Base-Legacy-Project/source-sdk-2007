@@ -26,9 +26,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Publishing to target directory (..\..\game\hl2\bin\)..."
-				CommandLine="if exist &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot; attrib -r &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;game_shader_dx9.map copy &quot;$(TargetDir)&quot;game_shader_dx9.map &quot;..\..\game\hl2\bin\game_shader_dx9.map&quot;&#x0D;&#x0A;"
-				Outputs="&quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;"
+				Description="Publishing to target directory (..\..\..\game\hl2\bin\)..."
+				CommandLine="if exist &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot; attrib -r &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;game_shader_dx9.map copy &quot;$(TargetDir)&quot;game_shader_dx9.map &quot;..\..\..\game\hl2\bin\game_shader_dx9.map&quot;&#x0D;&#x0A;"
+				Outputs="&quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -139,9 +139,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Publishing to target directory (..\..\game\hl2\bin\)..."
-				CommandLine="if exist &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot; attrib -r &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; &quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;game_shader_dx9.map copy &quot;$(TargetDir)&quot;game_shader_dx9.map &quot;..\..\game\hl2\bin\game_shader_dx9.map&quot;&#x0D;&#x0A;"
-				Outputs="&quot;..\..\game\hl2\bin\game_shader_dx9.dll&quot;"
+				Description="Publishing to target directory (..\..\..\game\hl2\bin\)..."
+				CommandLine="if exist &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot; attrib -r &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; &quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;game_shader_dx9.map copy &quot;$(TargetDir)&quot;game_shader_dx9.map &quot;..\..\..\game\hl2\bin\game_shader_dx9.map&quot;&#x0D;&#x0A;"
+				Outputs="&quot;..\..\..\game\hl2\bin\game_shader_dx9.dll&quot;"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
