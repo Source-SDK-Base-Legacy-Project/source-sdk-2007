@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Server HL2MP"
 	ProjectGUID="{4254C2D9-2C38-4911-BD4A-EB034CBD48D1}"
+	RootNamespace="Server HL2MP"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -92,7 +93,7 @@
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="..\..\lib\common;..\..\lib\public"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"
