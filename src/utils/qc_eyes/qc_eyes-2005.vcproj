@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="QC_Eyes"
 	ProjectGUID="{D373436F-7DBF-468B-A3E4-601FB8556544}"
+	RootNamespace="QC_Eyes"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -92,7 +93,7 @@
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"

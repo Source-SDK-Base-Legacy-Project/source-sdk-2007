@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Glview"
 	ProjectGUID="{BD1604CA-F401-4C4B-821C-251F5AE157FE}"
+	RootNamespace="Glview"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -92,7 +93,7 @@
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"

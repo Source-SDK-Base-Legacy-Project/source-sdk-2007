@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Vrad_launcher"
 	ProjectGUID="{914F19DF-64EC-4E7D-8B01-76477BF06479}"
+	RootNamespace="Vrad_launcher"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>

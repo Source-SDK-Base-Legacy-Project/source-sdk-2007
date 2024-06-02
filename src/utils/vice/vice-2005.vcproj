@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Vice"
 	ProjectGUID="{3CE6E7A9-89EC-4304-8D72-5B602B4DBD09}"
+	RootNamespace="Vice"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -91,7 +92,7 @@
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"

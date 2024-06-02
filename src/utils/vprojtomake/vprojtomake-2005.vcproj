@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="vprojtomake"
 	ProjectGUID="{EA55446E-BC04-491C-A9F0-605DFCBB213A}"
+	RootNamespace="vprojtomake"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -177,7 +178,7 @@
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="..\..\lib\public"
-				IgnoreDefaultLibraryNames="LIBCMT"
+				IgnoreDefaultLibraryNames="LIBCMTD"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile=".\Debug/vprojtomake.pdb"
 				GenerateMapFile="true"

@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Vtf2tga"
 	ProjectGUID="{2A1F656C-053C-46A4-AE33-304C1D865E0C}"
+	RootNamespace="Vtf2tga"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -91,7 +92,7 @@
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"

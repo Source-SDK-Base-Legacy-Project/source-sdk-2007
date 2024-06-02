@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="Vrad_dll"
 	ProjectGUID="{0DA02E11-F553-4DD1-83D1-F760F2D96862}"
+	RootNamespace="Vrad_dll"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -87,7 +88,7 @@
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="..\..\lib\common;..\..\lib\public"
 				GenerateManifest="false"
-				IgnoreDefaultLibraryNames="libc;libcd;libcmt"
+				IgnoreDefaultLibraryNames="libc;libcd;libcmtd"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/$(TargetName).pdb"
 				GenerateMapFile="true"
