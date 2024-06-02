@@ -675,6 +675,10 @@
 			>
 		</Filter>
 		<File
+			RelativePath="..\..\lib\public\mathlib.lib"
+			>
+		</File>
+		<File
 			RelativePath="..\..\lib\public\tier0.lib"
 			>
 		</File>
