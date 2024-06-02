@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="xwad"
 	ProjectGUID="{B850012C-98A2-42F7-B023-9F65C448D938}"
+	RootNamespace="xwad"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -30,7 +31,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				CommandLine="if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;"
-				Outputs="..\..\..\game\bin\xwad.exe;..\..\..\game\bin\xwad.pdb"
+				Outputs="..\..\..\game\bin\$(TargetName).exe;..\..\..\game\bin\$(TargetName).pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -119,7 +120,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				CommandLine="if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;"
-				Outputs="..\..\..\game\bin\xwad.exe;..\..\..\game\bin\xwad.pdb"
+				Outputs="..\..\..\game\bin\$(TargetName).exe;..\..\..\game\bin\$(TargetName).pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

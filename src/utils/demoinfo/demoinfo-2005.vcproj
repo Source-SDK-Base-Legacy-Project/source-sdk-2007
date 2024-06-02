@@ -31,7 +31,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				CommandLine="if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;"
-				Outputs="..\..\..\game\bin\demoinfo.exe;..\..\..\game\bin\demoinfo.pdb"
+				Outputs="..\..\..\game\bin\$(TargetName).exe;..\..\..\game\bin\$(TargetName).pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -125,7 +125,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				CommandLine="if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.exe&#x0D;&#x0A;if exist ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb attrib -r ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;copy &quot;$(TargetPath)&quot; ..\..\..\game\bin\&quot;$(TargetName)&quot;.pdb&#x0D;&#x0A;"
-				Outputs="..\..\..\game\bin\demoinfo.exe;..\..\..\game\bin\demoinfo.pdb"
+				Outputs="..\..\..\game\bin\$(TargetName).exe;..\..\..\game\bin\$(TargetName).pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
