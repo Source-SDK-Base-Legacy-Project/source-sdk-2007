@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="9.00"
 	Name="shaderlib-2005"
 	ProjectGUID="{1A1149D9-CB1B-BF85-19CA-C9C2996BFDE8}"
+	RootNamespace="shaderlib-2005"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -374,4 +376,6 @@
 			</File>
 		</Filter>
 	</Files>
+	<Globals>
+	</Globals>
 </VisualStudioProject>
