@@ -298,6 +298,11 @@ bool CEngineSprite::IsAVI()
 	return ( m_hAVIMaterial != AVIMATERIAL_INVALID );
 }
 
+bool CEngineSprite::IsBIK()
+{
+	return ( m_hBIKMaterial != BIKMATERIAL_INVALID );
+}
+
 
 //-----------------------------------------------------------------------------
 // Returns the texture coordinate range	used to draw the sprite
