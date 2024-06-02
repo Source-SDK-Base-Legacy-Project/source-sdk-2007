@@ -29,12 +29,12 @@
 class CTakeDamageInfo;
 
 //Tony; Compromise! in episodic single player, inherit CBaseCombatCharacter for the barnacle interaction, otherwise this will never get called.
-class CBaseGrenade : 
-	#if defined( HL2_EPISODIC )
-		public CBaseCombatCharacter
-	#else
-		public CBaseAnimating
-	#endif
+#if defined( HL2_EPISODIC ) || defined ( HL2MP )
+#define GRENADEBASECLASS CBaseCombatCharacter
+#else
+#define GRENADEBASECLASS CBaseAnimating
+#endif
+class CBaseGrenade : public GRENADEBASECLASS
 	#if defined( GAME_DLL )
 		, public CDefaultPlayerPickupVPhysics
 	#endif
