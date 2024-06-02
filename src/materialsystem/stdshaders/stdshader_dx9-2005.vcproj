@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
-	Name="stdshader_dx9"
+	Version="9.00"
+	Name="stdshader_dx9-2005"
 	ProjectGUID="{C8D2DC83-E117-7576-7B43-10C844264C51}"
 	RootNamespace="stdshader_dx9-2005"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -95,6 +96,8 @@
 				MapFileName="$(IntDir)/$(TargetName).map"
 				SubSystem="2"
 				BaseAddress=" "
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 				ErrorReporting="1"
 			/>
@@ -119,9 +122,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -212,6 +212,8 @@
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
 				BaseAddress=" "
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 				ErrorReporting="1"
 			/>
@@ -236,9 +238,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
