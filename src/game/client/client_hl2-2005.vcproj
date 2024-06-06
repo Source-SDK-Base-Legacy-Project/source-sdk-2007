@@ -2524,10 +2524,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\c_npc_advisor.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\c_npc_antlionguard.cpp"
 					>
 				</File>
@@ -2537,10 +2533,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\c_npc_manhack.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\c_npc_puppet.cpp"
 					>
 				</File>
 				<File
@@ -2557,10 +2549,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\c_prop_combine_ball.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\c_prop_scalable.cpp"
 					>
 				</File>
 				<File
@@ -2604,10 +2592,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\c_vehicle_jeep_episodic.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\c_vehicle_prisoner_pod.cpp"
 					>
 				</File>
@@ -2621,10 +2605,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\c_weapon_crossbow.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\c_weapon_hopwire.cpp"
 					>
 				</File>
 				<File
@@ -2657,18 +2637,6 @@
 				</File>
 				<File
 					RelativePath="..\shared\hl2\env_headcrabcanister_shared.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\episodic_screenspaceeffects.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\episodic_screenspaceeffects.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\flesh_internal_material_proxy.cpp"
 					>
 				</File>
 				<File
@@ -2752,10 +2720,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\hl2\hud_locator.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\hud_poisondamageindicator.cpp"
 					>
 				</File>
@@ -2793,10 +2757,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\hud_zoom.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\shared\episodic\npc_advisor_shared.h"
 					>
 				</File>
 				<File

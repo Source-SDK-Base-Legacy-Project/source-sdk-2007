@@ -3520,14 +3520,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\ai_behavior_alyx_injured.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ai_behavior_alyx_injured.h"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\ai_behavior_functank.cpp"
 					>
 				</File>
@@ -3557,22 +3549,6 @@
 				</File>
 				<File
 					RelativePath=".\ai_behavior_passenger.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ai_behavior_passenger_companion.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ai_behavior_passenger_companion.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ai_behavior_passenger_zombie.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ai_behavior_passenger_zombie.h"
 					>
 				</File>
 				<File
@@ -3713,54 +3689,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\env_starfield.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ep1_gamestats.cpp"
-					>
-					<FileConfiguration
-						Name="Debug|Win32"
-						>
-						<Tool
-							Name="VCCLCompilerTool"
-							UsePrecompiledHeader="0"
-						/>
-					</FileConfiguration>
-					<FileConfiguration
-						Name="Release|Win32"
-						>
-						<Tool
-							Name="VCCLCompilerTool"
-							UsePrecompiledHeader="0"
-						/>
-					</FileConfiguration>
-				</File>
-				<File
-					RelativePath=".\episodic\ep1_gamestats.h"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\ep2_gamestats.cpp"
-					>
-					<FileConfiguration
-						Name="Debug|Win32"
-						>
-						<Tool
-							Name="VCCLCompilerTool"
-							UsePrecompiledHeader="0"
-						/>
-					</FileConfiguration>
-					<FileConfiguration
-						Name="Release|Win32"
-						>
-						<Tool
-							Name="VCCLCompilerTool"
-							UsePrecompiledHeader="0"
-						/>
-					</FileConfiguration>
-				</File>
-				<File
-					RelativePath=".\episodic\ep2_gamestats.h"
 					>
 				</File>
 				<File
@@ -3936,19 +3864,11 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\npc_advisor.cpp"
+					RelativePath=".\hl2\npc_alyx.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\shared\episodic\npc_advisor_shared.h"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\npc_alyx_episodic.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\npc_alyx_episodic.h"
+					RelativePath=".\hl2\npc_alyx.h"
 					>
 				</File>
 				<File
@@ -4036,10 +3956,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\npc_combine_cannon.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\npc_combinecamera.cpp"
 					>
 				</File>
@@ -4104,14 +4020,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\npc_hunter.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\npc_hunter.h"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\npc_ichthyosaur.cpp"
 					>
 				</File>
@@ -4121,10 +4029,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_launcher.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\npc_magnusson.cpp"
 					>
 				</File>
 				<File
@@ -4161,10 +4065,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_PoisonZombie.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\npc_puppet.cpp"
 					>
 				</File>
 				<File
@@ -4248,10 +4148,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\prop_scalable.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\prop_thumper.cpp"
 					>
 				</File>
@@ -4300,23 +4196,7 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\vehicle_hl2buggy.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\vehicle_hl2buggy.h"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\vehicle_jeep.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\vehicle_jeep_episodic.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\vehicle_jeep_episodic.h"
 					>
 				</File>
 				<File
@@ -4409,14 +4289,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\weapon_smg1.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\weapon_striderbuster.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\weapon_striderbuster.h"
 					>
 				</File>
 				<File
