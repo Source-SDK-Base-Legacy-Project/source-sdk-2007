@@ -17,8 +17,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory=".\Debug_episodic"
-			IntermediateDirectory=".\Debug_episodic"
+			OutputDirectory=".\Debug_hl2"
+			IntermediateDirectory=".\Debug_hl2"
 			ConfigurationType="2"
 			CharacterSet="2"
 			>
@@ -134,8 +134,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory=".\Release_episodic"
-			IntermediateDirectory=".\Release_episodic"
+			OutputDirectory=".\Release_hl2"
+			IntermediateDirectory=".\Release_hl2"
 			ConfigurationType="2"
 			CharacterSet="2"
 			>
