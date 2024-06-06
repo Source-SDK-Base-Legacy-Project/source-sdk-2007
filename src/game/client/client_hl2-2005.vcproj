@@ -29,9 +29,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\..\game\episodic\bin\"
-				CommandLine="if exist &quot;..\..\..\game\episodic\bin\client.dll&quot; attrib -r &quot;..\..\..\game\episodic\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\episodic\bin&quot;&#x0D;&#x0A;"
-				Outputs="..\..\..\game\episodic\bin\client.dll"
+				Description="Copying to ..\..\..\game\hl2\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2\bin\client.dll&quot; attrib -r &quot;..\..\..\game\hl2\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\hl2\bin&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2\bin\client.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -148,9 +148,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Copying to ..\..\..\game\episodic\bin\"
-				CommandLine="if exist &quot;..\..\..\game\episodic\bin\client.dll&quot; attrib -r &quot;..\..\..\game\episodic\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\episodic\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\..\game\episodic\bin\client.pdb&quot; attrib -r &quot;..\..\..\game\episodic\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\..\game\episodic\bin\client.pdb&quot;&#x0D;&#x0A;"
-				Outputs="..\..\..\game\episodic\bin\client.dll;..\..\..\game\episodic\bin\client.pdb"
+				Description="Copying to ..\..\..\game\hl2\bin\"
+				CommandLine="if exist &quot;..\..\..\game\hl2\bin\client.dll&quot; attrib -r &quot;..\..\..\game\hl2\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;..\..\..\game\hl2\bin&quot;&#x0D;&#x0A;if exist &quot;..\..\..\game\hl2\bin\client.pdb&quot; attrib -r &quot;..\..\..\game\hl2\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;..\..\..\game\hl2\bin\client.pdb&quot;&#x0D;&#x0A;"
+				Outputs="..\..\..\game\hl2\bin\client.dll;..\..\..\game\hl2\bin\client.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
