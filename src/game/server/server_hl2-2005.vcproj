@@ -3740,14 +3740,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\hl2\grenade_spit.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\grenade_spit.h"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\hl2_ai_network.cpp"
 					>
 				</File>
@@ -3877,10 +3869,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_antlion.h"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\npc_antliongrub.cpp"
 					>
 				</File>
 				<File
@@ -4129,10 +4117,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_zombie.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\npc_zombine.cpp"
 					>
 				</File>
 				<File
