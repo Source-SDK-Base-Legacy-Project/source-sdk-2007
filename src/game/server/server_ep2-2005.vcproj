@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="Server EP2"
-	ProjectGUID="{6CC3AAA9-1AD2-46ca-BEA8-4FE10F298CBB}"
+	ProjectGUID="{6CC3AAA9-1AD2-46CA-BEA8-4FE10F298CBB}"
 	RootNamespace="Server EP2"
 	TargetFrameworkVersion="131072"
 	>
