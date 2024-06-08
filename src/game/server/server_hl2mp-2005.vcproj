@@ -3934,10 +3934,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\hl2\npc_fisherman.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\npc_gman.cpp"
 					>
 				</File>
