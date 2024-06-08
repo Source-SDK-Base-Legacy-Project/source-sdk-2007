@@ -152,24 +152,13 @@ static impactdamagetable_t gCappedPlayerImpactDamageTable =
 };
 
 // Flashlight utility
-bool g_bCacheLegacyFlashlightStatus = true;
-bool g_bUseLegacyFlashlight;
 bool Flashlight_UseLegacyVersion( void )
 {
-	// If this is the first run through, cache off what the answer should be (cannot change during a session)
-	if ( g_bCacheLegacyFlashlightStatus )
-	{
-		char modDir[MAX_PATH];
-		if ( UTIL_GetModDir( modDir, sizeof(modDir) ) == false )
-			return false;
-
-		g_bUseLegacyFlashlight = ( !Q_strcmp( modDir, "hl2" ) || !Q_strcmp( modDir, "episodic" ) );
-
-		g_bCacheLegacyFlashlightStatus = false;
-	}
-
-	// Return the results
-	return g_bUseLegacyFlashlight;
+#ifdef HL2_USE_LEGACY_FLASHLIGHT
+	return true;
+#else
+	return false;
+#endif
 }
 
 //-----------------------------------------------------------------------------
