@@ -3936,14 +3936,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\npc_advisor.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\shared\episodic\npc_advisor_shared.h"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\npc_alyx_episodic.cpp"
 					>
 				</File>
@@ -3957,10 +3949,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_antlion.h"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\npc_antliongrub.cpp"
 					>
 				</File>
 				<File
@@ -4120,10 +4108,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\npc_magnusson.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\npc_manhack.cpp"
 					>
 				</File>
@@ -4157,10 +4141,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\npc_PoisonZombie.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\npc_puppet.cpp"
 					>
 				</File>
 				<File

@@ -2524,10 +2524,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\episodic\c_npc_advisor.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\c_npc_antlionguard.cpp"
 					>
 				</File>
@@ -2537,10 +2533,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\c_npc_manhack.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\episodic\c_npc_puppet.cpp"
 					>
 				</File>
 				<File
@@ -2744,10 +2736,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\hl2\hud_flashlight.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\hud_health.cpp"
 					>
 				</File>
@@ -2793,10 +2781,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\hud_zoom.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\shared\episodic\npc_advisor_shared.h"
 					>
 				</File>
 				<File
