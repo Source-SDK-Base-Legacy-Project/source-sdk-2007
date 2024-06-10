@@ -2712,10 +2712,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\hl2\hud_flashlight.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\hl2\hud_health.cpp"
 					>
 				</File>
@@ -2729,14 +2725,6 @@
 				</File>
 				<File
 					RelativePath=".\hl2\hud_quickinfo.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\hud_radar.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\hl2\hud_radar.h"
 					>
 				</File>
 				<File
