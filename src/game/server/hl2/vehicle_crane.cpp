@@ -117,6 +117,7 @@ void CPropCrane::Precache( void )
 {
 	BaseClass::Precache();
 	m_ServerVehicle.Initialize( STRING(m_vehicleScript) );
+	m_ServerVehicle.UseLegacyExitChecks( true );
 }
 
 
