@@ -13,7 +13,7 @@
 		{
 			Game				|gameinfo_path|.
 			Game				hl2
-			Game				"D:\SteamLibrary\steamapps\common\Half-Life 2\hl2"
+			Game				"C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2"
 		}
 	}
 }
