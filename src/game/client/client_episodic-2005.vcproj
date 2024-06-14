@@ -2017,6 +2017,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\vgui_video.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\vgui_video.h"
+				>
+			</File>
+			<File
 				RelativePath=".\view.cpp"
 				>
 			</File>

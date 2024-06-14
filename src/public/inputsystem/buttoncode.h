@@ -263,4 +263,27 @@ inline bool IsJoystickAxisCode( ButtonCode_t code )
 	return ( code >= JOYSTICK_FIRST_AXIS_BUTTON ) && ( code <= JOYSTICK_LAST_AXIS_BUTTON );
 }
 
+inline ButtonCode_t GetBaseButtonCode( ButtonCode_t code )
+{
+	if ( IsJoystickButtonCode( code ) )
+	{
+		int offset = ( code - JOYSTICK_FIRST_BUTTON ) % JOYSTICK_MAX_BUTTON_COUNT;
+		return (ButtonCode_t)( JOYSTICK_FIRST_BUTTON + offset );
+	}
+
+	if ( IsJoystickPOVCode( code ) )
+	{
+		int offset = ( code - JOYSTICK_FIRST_POV_BUTTON ) % JOYSTICK_POV_BUTTON_COUNT;
+		return (ButtonCode_t)( JOYSTICK_FIRST_POV_BUTTON + offset );
+	}
+
+	if ( IsJoystickAxisCode( code ) )
+	{
+		int offset = ( code - JOYSTICK_FIRST_AXIS_BUTTON ) % JOYSTICK_AXIS_BUTTON_COUNT;
+		return (ButtonCode_t)( JOYSTICK_FIRST_AXIS_BUTTON + offset );
+	}
+
+	return code;
+}
+
 #endif // BUTTONCODE_H
