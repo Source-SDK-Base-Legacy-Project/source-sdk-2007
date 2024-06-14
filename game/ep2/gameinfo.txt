@@ -1,0 +1,21 @@
+"GameInfo"
+{
+	game 		"Source 2007 (Mod EP2)"
+	title 		"Source 2007"
+	title2		"Mod EP2"
+	type		singleplayer_only
+
+	FileSystem
+	{
+		SteamAppId				218
+		ToolsAppId				211
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				ep2
+			Game				"${{sdkbase2013sp_hl2ep2_content_path}}"
+			Game				episodic
+			Game				hl2
+		}
+	}
+}
