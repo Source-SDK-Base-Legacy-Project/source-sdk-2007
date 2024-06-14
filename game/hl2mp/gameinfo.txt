@@ -1,9 +1,9 @@
 "GameInfo"
 {
-	game	"hl2mp"
-	title	"HALF+LIFE'"
-	title2	"deathmatch"
-	type 	multiplayer_only
+	game 		"Source 2007 (Mod HL2MP)"
+	title 		"Source 2007"
+	title2		"Mod HL2MP"
+	type		multiplayer_only
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
@@ -16,18 +16,16 @@
 
 	FileSystem
 	{
-		SteamAppId				218		// GCF for Source SDK Base 2007
-		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-
-		//Orange box sdk allows an extra appid to be defined here to mount additional content. 320 is HL2MP
-		AdditionalContentId			320
-		
-
+		SteamAppId				218
+		ToolsAppId				211
+		//AdditionalContentId			320
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
-			Game				|all_source_engine_paths|hl2mp
-			Game				|all_source_engine_paths|hl2
+			Game				hl2mp
+			Game				"${{hl2mp_content_path}}"
+			Game				"C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp"
+			Game				hl2
 		}
 	}
 }
