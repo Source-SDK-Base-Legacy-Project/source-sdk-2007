@@ -1,22 +1,19 @@
 "GameInfo"
 {
-	game 		"hl2"
-	title 		"HALF-LIFE'"
-	title2		"== episode two =="
-
+	game 		"Source 2007 (Mod HL2)"
+	title 		"Source 2007"
+	title2		"Mod HL2"
 	type		singleplayer_only
 
 	FileSystem
 	{
-		SteamAppId				420 		// GCF for Episode 2
-		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-		
+		SteamAppId				218
+		ToolsAppId				211
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
-			Game				|all_source_engine_paths|ep2
-			Game				|all_source_engine_paths|episodic
-			Game				|all_source_engine_paths|hl2
+			Game				hl2
+			Game				"D:\SteamLibrary\steamapps\common\Half-Life 2\hl2"
 		}
 	}
 }
