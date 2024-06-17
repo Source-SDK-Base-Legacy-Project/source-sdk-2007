@@ -306,7 +306,7 @@
 	" "	"CreditsOutroText"
 	" "	"CreditsOutroText"
 	" "	"CreditsOutroText"
-	"v"	"CreditsOutroText"
+	"@"	"CreditsOutroLogos"
 }
 
 
