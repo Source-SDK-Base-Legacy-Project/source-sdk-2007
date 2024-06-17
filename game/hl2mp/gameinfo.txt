@@ -23,7 +23,7 @@
 		{
 			Game				|gameinfo_path|.
 			Game				hl2mp
-			Game				"${{hl2mp_content_path}}"
+			Game				"${{sdkbase2013mp_hl2mp_content_path}}"
 			Game				"C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2 Deathmatch\hl2mp"
 			Game				hl2
 		}
