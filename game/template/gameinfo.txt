@@ -23,6 +23,8 @@
 			//For the example above; if including 240, mount the cstrike folder.
 			//Game				|all_source_engine_paths|cstrike
 
+			Game				"${{source2007_hl2_patches_path}}" // Apply specific HL2 2007 patches
+			Game				"${{source2007_hl2_content_path}}" // Make sure HL2 2007 content has priority
 			Game				|all_source_engine_paths|hl2
 		}
 	}
