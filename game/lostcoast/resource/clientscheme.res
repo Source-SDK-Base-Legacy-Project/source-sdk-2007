@@ -56,10 +56,10 @@ Scheme
 		"Main.Title1.Color"	"255 255 255 255"
 
 		// Top-left corner of secondary title e.g. "DEMO" on the main screen
-		"Main.Title2.X"				"314"
-		"Main.Title2.Y"				"257"
-		"Main.Title2.Y_hidef"		"242"
-		"Main.Title2.Color"	"255 255 255 200"
+		"Main.Title2.X"				"304"
+		"Main.Title2.Y"				"237"
+		"Main.Title2.Y_hidef"		"222"
+		"Main.Title2.Color"	"255 255 255 160"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
@@ -774,8 +774,8 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2crosshairs.ttf"
 		"2"		"resource/LostCoast.ttf"
+		"3"		"resource/HL2crosshairs.ttf"
 	}
 
 }
