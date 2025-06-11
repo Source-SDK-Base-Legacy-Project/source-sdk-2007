@@ -13,6 +13,7 @@
 		{
 			Game	|gameinfo_path|.
 			Game	|all_source_engine_paths|ep2
+			Game	|all_source_engine_paths|episodic_2007
 			Game	|all_source_engine_paths|episodic
 			Game	|all_source_engine_paths|hl2
 		}
