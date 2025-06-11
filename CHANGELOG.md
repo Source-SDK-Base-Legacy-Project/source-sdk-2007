@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Lost Coast
+  - Project files
+  - Sample mod files
+
+### Fixed
+
+- Lost Coast
+  - Map d2_lostcoast
+    - Bogus constraints on various lamps and chandelier
+    - `move_rope` not parented to chandelier
+
+### Removed
+
+- All
+  - SourceModPatcher tokens in gameinfo.txt
+  - SourceModPatcher references in README.txt
+
 ## [1.0.0] - 2024-07-21
 
 ### Added
