@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{CC9D7C02-C5A0-4f3e-973E-6C71AA4EE9E2}") = "Client LostCoast", "game\client\client_lostcoast-2005.vcproj", "{1C7AB407-D11C-4a42-859D-0D569C90044F}"
+EndProject
+Project("{CC9D7C02-C5A0-4f3e-973E-6C71AA4EE9E2}") = "Server LostCoast", "game\server\server_lostcoast-2005.vcproj", "{7D158A4E-5EF9-42e8-B03A-0A847BED389F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7AB407-D11C-4a42-859D-0D569C90044F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C7AB407-D11C-4a42-859D-0D569C90044F}.Debug|Win32.Build.0 = Debug|Win32
+		{1C7AB407-D11C-4a42-859D-0D569C90044F}.Release|Win32.ActiveCfg = Release|Win32
+		{1C7AB407-D11C-4a42-859D-0D569C90044F}.Release|Win32.Build.0 = Release|Win32
+		{7D158A4E-5EF9-42e8-B03A-0A847BED389F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D158A4E-5EF9-42e8-B03A-0A847BED389F}.Debug|Win32.Build.0 = Debug|Win32
+		{7D158A4E-5EF9-42e8-B03A-0A847BED389F}.Release|Win32.ActiveCfg = Release|Win32
+		{7D158A4E-5EF9-42e8-B03A-0A847BED389F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
