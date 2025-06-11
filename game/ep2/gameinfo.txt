@@ -12,15 +12,8 @@
 		SearchPaths
 		{
 			Game	|gameinfo_path|.
-			Game	"${{source2007_ep2_patches_path}}" // Apply specific EP2 2007 patches
-			Game	"${{source2007_ep2_content_path}}" // Make sure EP2 2007 content has priority
-			Game	"${{source2007_ep2_maps_content_path}}" // Make sure EP2 2007 maps content has priority
 			Game	|all_source_engine_paths|ep2
-			Game	"${{source2007_episodic_patches_path}}" // Apply specific EP1 2007 patches
-			Game	"${{source2007_episodic_content_path}}" // Make sure EP1 2007 content has priority
 			Game	|all_source_engine_paths|episodic
-			Game	"${{source2007_hl2_patches_path}}" // Apply specific HL2 2007 patches
-			Game	"${{source2007_hl2_content_path}}" // Make sure HL2 2007 content has priority
 			Game	|all_source_engine_paths|hl2
 		}
 	}

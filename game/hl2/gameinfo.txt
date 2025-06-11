@@ -11,11 +11,7 @@
 		SearchPaths
 		{
 			Game	|gameinfo_path|.
-			Game	"${{source2007_hl2_patches_path}}" // Apply specific HL2 2007 patches
-			Game	"${{source2007_hl2_content_path}}" // Make sure HL2 2007 content has priority
-			Game	"${{hl2_maps_content_path}}" // Make sure HL2 maps content has priority
 			Game	|all_source_engine_paths|hl2
-			Game	"${{hl2_gamedir}}" // Add path to HL2 .BSP maps
 		}
 	}
 }
