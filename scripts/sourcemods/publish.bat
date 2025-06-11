@@ -13,6 +13,7 @@ call ..\base\copy_dir.bat "%_root%\game\ep2" "%_sourcemodinstallpath%\source_200
 call ..\base\copy_dir.bat "%_root%\game\episodic" "%_sourcemodinstallpath%\source_2007_mod_episodic"
 call ..\base\copy_dir.bat "%_root%\game\hl2" "%_sourcemodinstallpath%\source_2007_mod_hl2"
 call ..\base\copy_dir.bat "%_root%\game\hl2mp" "%_sourcemodinstallpath%\source_2007_mod_hl2mp"
+call ..\base\copy_dir.bat "%_root%\game\lostcoast" "%_sourcemodinstallpath%\source_2007_mod_lostcoast"
 call ..\base\copy_dir.bat "%_root%\game\template" "%_sourcemodinstallpath%\source_2007_mod_template"
 
 endlocal
